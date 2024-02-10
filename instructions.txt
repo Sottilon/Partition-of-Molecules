@@ -1,0 +1,14 @@
+Problem:
+
+A team in R&D at Oriflame has taken an interest in molecules coming from plants, as actives for future skincare products. They have found a natural product activity database called NPASS (https://bidd.group/NPASS-2018/index.php) which could help them in their investigations for plants of interest containing promising active ingredients. You can find a dataset coming from the NPASS database, containing the combination of plants and active compounds, in the file named "data_catalogue_NPASS_plant_compounds" (both in .xlsx and .csv).
+
+In parallel, the R&D team has also downloaded more than 20000 .mol files (holding information about molecules) coming from natural sources according to NPASS. The analytical chemist in Oriflame R&D is requesting this vast collection of files to be stored on a computer (PC) in the lab so that these files can be read by the LC-MS (liquid chromatography-mass spectrometry) software. Since this piece of software is quite old, it cannot load more than 200 .mol files at a time. A toy dataset including more than 300 .mol files is available in the "mol files" folder.
+
+Find a smart way to organize the files, for example in folders and subfolders that could be loaded into the LC-MS software, keeping in mind the limitations of the LC-MS software and that the main user will be an analytical chemist.
+
+Instructions:
+
+- The solution for this problem has to be coded in Python (preferably 3.9.0 and above).
+- The minimum deliverables expected is a well annotated .py file showing your reasoning. Alternatively, you could use a jupyter notebook, google collab or even a .py file plus a document explaining your reasoning (i.e. .docx).
+- Please send your files to thibaud.richard@oriflame.com or send an invite to your github repository to the user ThiRic.
+- You have 7 days from reception of this email to work on the solution.
