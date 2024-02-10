@@ -16,7 +16,7 @@ import shutil
 
 
 # Change directory where to handle the files
-os.chdir('/Users/samuelesottile/Desktop/Test/mol files')
+os.chdir('../mol files')
 
 #Print the new directory
 print(os.getcwd())
@@ -44,7 +44,7 @@ print(df.head())
 
 #Create a DataFrame out of the NPASS csv file
 
-os.chdir('/Users/samuelesottile/Desktop/Test')
+os.chdir('../Partition-of-Molecules')
 
 npass=pd.read_csv('data_catalogue_NPASS_plant_compounds.csv',
                   sep = '|', 
@@ -95,7 +95,7 @@ for j,l in zip(df['Cid'], range(0,311)):
 
         
 # Change directory where to handle the files
-os.chdir('/Users/samuelesottile/Desktop/Test/mol files')
+os.chdir('../mol files')
 
 
 col='family_name'
